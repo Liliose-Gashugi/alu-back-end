@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-"""Export an employee's TODO tasks to a CSV file."""
 
 import csv
 import requests
@@ -7,7 +6,7 @@ import sys
 
 
 def main():
-    """Fetch employee tasks and export them to CSV."""
+    """Retrieve employee tasks and export them to CSV."""
     employee_id = int(sys.argv[1])
     base_url = "https://jsonplaceholder.typicode.com"
 
