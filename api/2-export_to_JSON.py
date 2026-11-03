@@ -7,7 +7,7 @@ import sys
 
 
 def main():
-    """Fetch employee tasks and export them to JSON."""
+    """Retrieve employee tasks and export them to JSON."""
     employee_id = int(sys.argv[1])
     base_url = "https://jsonplaceholder.typicode.com"
 
@@ -44,3 +44,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
